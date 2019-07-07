@@ -1,21 +1,27 @@
 html,
 body {
     height: 100%;
+    margin: 0;
+    
 }
+
 
 .jumbotron {
     height: 50%;
     margin: 0;
-    background-color: rgb(168, 165, 165);
+    background-color: black;
+    color: white;
+    border-radius: 0 !important;
+    
 }
+
+
 
 .card {
     width: 100%;
+    background-color: black;
+    color: white;
 }
-
-
-
-
 
 .right {
     border: none;
@@ -23,11 +29,12 @@ body {
 }
 
 .wrapper {
-    background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-    background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-    background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
-    background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
-    background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,212,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,212,255,1) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,212,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d4ff",GradientType=1);
+    
 }
 
 .vertical-center {
