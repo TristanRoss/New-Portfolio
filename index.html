@@ -14,10 +14,7 @@
 
 <body>
 
-    <script src="https://kit.fontawesome.com/ba0d5dd0c3.js"></script>
-    <script src="src/js/jquery.min.js"></script>
-    <script src="src/js/popper.min.js"></script>
-    <script src="src/js/bootstrap.min.js"></script>
+
     <!-- <div class="container-fullwidth">
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
@@ -45,15 +42,17 @@
     
     <div class="jumbotron vertical-center mb-0">
         <div class="container">
-            <h1 class="display-4 text-center">Welcome to my website</h1>
+            <h1 class="display-4 text-center" id="welcome">Welcome to my website</h1>
             <hr class="my-4">
             
             <p class="lead text-center px-5 py-0">
-                <a class="btn btn-outline-info btn-lg mx-2" href="https://www.linkedin.com/in/tristan-ross/" role="button"><i class="fab fa-linkedin fa-2x"></i></a>
-                <a class="btn btn-outline-info btn-lg mx-2" href="https://github.com/TristanRoss" role="button"><i class="fab fa-github fa-2x"></i></a>              
+                <a class="btn btn-outline-info btn-lg mx-2" href="https://www.linkedin.com/in/tristan-ross/" role="button" id="linkedin"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a class="btn btn-outline-info btn-lg mx-2" href="https://github.com/TristanRoss" role="button" id="github"><i class="fab fa-github fa-2x"></i></a>              
             </p>
         </div>
     </div>
+
+    <div id="circle"></div>
 
     <div class="wrapper">
         <div class="container">
@@ -103,7 +102,12 @@
     </div>
     </div>
 
-
+    <script src="https://kit.fontawesome.com/ba0d5dd0c3.js"></script>
+    <script src="src/js/jquery.min.js"></script>
+    <script src="src/js/popper.min.js"></script>
+    <script src="src/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
+    <script src="src/js/main.js"></script>
 </body>
 
 </html>
