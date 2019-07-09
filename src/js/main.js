@@ -22,12 +22,16 @@ anime({
         {value: 0, duration: 0, delay: 100},
         {value: 80, duration: 2000},
         {value: 0, duration: 2000, delay: 2100}
+
     ],
     translateX: [
         {value: 100, duration: 2000, delay: 2100},
-        {value: 0, duration: 2000, delay: 2100}
+        {value: 0, duration: 2000, delay: 2100},
+        {value: 0, duration: 2000}
+        
     ],
-    easing: 'linear'
+    easing: 'linear',
+    loop: true
 });
 
 let github = document.getElementById("github");
@@ -43,5 +47,6 @@ anime({
         {value: -100, duration: 2000, delay: 2100},
         {value: 0, duration: 2000, delay: 2100}
     ],
-    easing: 'linear'
+    easing: 'linear',
+    loop: true
 });
