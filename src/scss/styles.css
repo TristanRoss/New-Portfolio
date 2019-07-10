@@ -1,27 +1,32 @@
 html,
 body {
   height: 100%;
-  margin: 0; }
+  margin: 0;
+}
 
 .jumbotron {
   height: 50%;
   margin: 0;
   background-color: black;
   color: #95ffac;
-  border-radius: 0 !important; }
+  border-radius: 0 !important;
+}
 
 #header {
   color: white;
-  background-color: black; }
+  background-color: black;
+}
 
 #particles-js canvas {
   display: block;
   -webkit-transform: scale(1);
-  -ms-transform: scale(1);
   transform: scale(1);
   opacity: 1;
   -webkit-transition: opacity .8s ease, -webkit-transform 1.4s ease;
-  transition: opacity .8s ease, transform 1.4s ease; }
+  transition: opacity .8s ease, -webkit-transform 1.4s ease;
+  transition: opacity .8s ease, transform 1.4s ease;
+  transition: opacity .8s ease, transform 1.4s ease, -webkit-transform 1.4s ease;
+}
 
 #particles-js {
   width: 100%;
@@ -29,36 +34,50 @@ body {
   position: fixed;
   z-index: 1;
   top: 0;
-  left: 0; }
+  left: 0;
+}
 
 hr {
-  border-top: 1px solid white; }
+  border-top: 1px solid white;
+}
 
 .card {
   width: 100%;
   background-color: black;
-  color: white; }
+  color: white;
+}
 
 #first {
   border: 1px solid #007bff;
-  border-radius: 1px; }
+  border-radius: 1px;
+}
 
 #second {
   border: 1px solid #28a745;
-  border-radius: 1px; }
+  border-radius: 1px;
+}
 
 #third {
   border: 1px solid #ffc107;
-  border-radius: 1px; }
+  border-radius: 1px;
+}
 
 .right {
-  border: none; }
+  border: none;
+}
 
 .wrapper {
-  background-color: black; }
+  background-color: black;
+}
 
 .vertical-center {
   min-height: 100%;
   min-height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center; }
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=styles.css.map */
