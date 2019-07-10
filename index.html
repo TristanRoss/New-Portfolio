@@ -14,6 +14,7 @@
 
 <body>
 
+    <div id="particles-js"></div>
 
     <!-- <div class="container-fullwidth">
         <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black;">
@@ -39,10 +40,10 @@
         </nav>
     </div> -->
 
-    
+        
     <div class="jumbotron vertical-center mb-0">
         <div class="container">
-            <h1 class="display-4 text-center" id="welcome">Welcome to my website</h1>
+            <h1 class="display-4 text-center" id="welcome">Tristan Ross</h1>
             <hr class="my-4">
             
             <p class="lead text-center px-5 py-0">
@@ -57,7 +58,7 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-sm-12 col-md-6">
-                    <div class="card my-5">
+                    <div class="card my-5" id="first">
                         <div class="card-body text-left">
                             <h5 class="card-title">JavaScript Calculator</h5>
                             <p class="card-text">A basic calculator using HTML, CSS, and JavaScript.</p>
@@ -71,7 +72,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-sm-12 col-md-6">
-                    <div class="card my-5">
+                    <div class="card my-5" id="second">
                         <div class="card-body text-right">
                             <h5 class="card-title">Java Calculator</h5>
                             <p class="card-text">A complex scientific calculator using Java featuring plenty of object-oriented design.</p>
@@ -86,10 +87,10 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col-sm-12 col-md-6">
-                    <div class="card my-5">
+                    <div class="card my-5" id="third" onmouseover="this.style.background.color='gray';">
                         <div class="card-body text-left">
                             <h5 class="card-title">Portfolio Website</h5>
-                            <p class="card-text">My portfolio website designed with Anime.js, JavaScript, Bootstrap, HTML, and CSS.</p>
+                            <p class="card-text">My portfolio website designed with Particles.js, Anime.js, JavaScript, Bootstrap, HTML, and CSS.</p>
                             <p class="lead">
                                 <a class="btn btn-outline-warning btn-lg" href="https://github.com/TristanRoss/New-Portfolio" role="button" id="projThreeGit"><i class="fab fa-github"></i></a>
                                 <a class="btn btn-outline-warning btn-lg" href="index.html" role="button" id="projThreeLive">Live Demo</a>
@@ -100,7 +101,9 @@
             </div>
         </div>
     </div>
-    </div>
+
+    
+
 
     <script src="https://kit.fontawesome.com/ba0d5dd0c3.js"></script>
     <script src="src/js/jquery.min.js"></script>
@@ -108,6 +111,13 @@
     <script src="src/js/bootstrap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.2.0/anime.js"></script>
     <script src="src/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+
+    <script>
+        particlesJS.load('particles-js', 'src/js/particles.json', function() {
+            console.log('particles.json loaded...');
+        });
+    </script>
 </body>
 
 </html>

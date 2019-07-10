@@ -1,16 +1,23 @@
-let welcomeText = document.getElementById("welcome");
-
+let welcomeText = document.getElementById("welcome")
 anime({
     targets: welcomeText,
-    opacity: 0,
-    duration: 8000,
-    easing: 'easeInExpo',
-    direction: 'reverse'
-    // rotate: {
-    //     // value: '1turn',
-    //     easing: 'easeInOutSine'
-    // }
+    opacity: [1, 0, 1],
+    duration: 4000,
+    easing: 'easeInOutSine',
+    direction: 'reverse',
+    loop: true
 });
+
+// anime({
+//     targets: welcomeText,
+//     translateY: [
+//         {value: 0, duration: 0, delay: 2500},
+//         {value: 33, duration: 500},
+//         {value: 0, duration: 500}
+//     ],
+//     easing: 'linear',
+//     loop: true
+// });
 
 let linkedin = document.getElementById("linkedin");
 
