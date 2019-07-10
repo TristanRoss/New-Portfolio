@@ -60,7 +60,7 @@
             },
             "bubble":{
                 "distance": 100,
-                "size": 10
+                "size": 6
             }
         }
     }

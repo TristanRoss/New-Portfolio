@@ -12,6 +12,10 @@ body {
   border-radius: 0 !important;
 }
 
+#top {
+  z-index: 2;
+}
+
 #header {
   color: white;
   background-color: black;
@@ -45,6 +49,7 @@ hr {
   width: 100%;
   background-color: black;
   color: white;
+  z-index: 2;
 }
 
 #first {
