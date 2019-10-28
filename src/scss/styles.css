@@ -62,12 +62,17 @@ hr {
 }
 
 #second {
-  border: 1px solid #28a745;
+  border: 1px solid #17a2b8;
   border-radius: 1px;
 }
 
 #third {
   border: 1px solid #ffc107;
+  border-radius: 1px;
+}
+
+#fourth {
+  border: 1px solid #28a745;
   border-radius: 1px;
 }
 

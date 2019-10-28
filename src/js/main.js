@@ -104,23 +104,24 @@ let projTwoGit = document.getElementById("projTwoGit");
 anime({
     targets: projTwoGit,
     translateX: [
-        {value: -50, duration: 1000, delay: 200},
-        {value: 0, duration: 1000},
-        {value: 0, duration: 1000}
+        {value: 110, duration: 0, delay: 200},
+        {value: 50, duration: 1000},
+        {value: 110, duration: 1000},
+        {value: 110, duration: 1000}
     ],
     easing: 'linear',
     loop: true
 });
+
 
 let projTwoLive = document.getElementById("projTwoLive");
 
 anime({
     targets: projTwoLive,
     translateX: [
-        {value: -110, duration: 0, delay: 200},
-        {value: -50, duration: 1000},
-        {value: -110, duration: 1000},
-        {value: -110, duration: 1000}
+        {value: 50, duration: 1000, delay: 200},
+        {value: 0, duration: 1000},
+        {value: 0, duration: 1000}
     ],
     easing: 'linear',
     loop: true
@@ -131,9 +132,10 @@ let projThreeGit = document.getElementById("projThreeGit");
 anime({
     targets: projThreeGit,
     translateX: [
-        {value: 50, duration: 1000, delay: 200},
-        {value: 0, duration: 1000},
-        {value: 0, duration: 1000}
+        {value: -110, duration: 0, delay: 200},
+        {value: -50, duration: 1000},
+        {value: -110, duration: 1000},
+        {value: -110, duration: 1000}
     ],
     easing: 'linear',
     loop: true
@@ -144,10 +146,24 @@ let projThreeLive = document.getElementById("projThreeLive");
 anime({
     targets: projThreeLive,
     translateX: [
-        {value: 110, duration: 0, delay: 200},
-        {value: 50, duration: 1000},
-        {value: 110, duration: 1000},
-        {value: 110, duration: 1000}
+        {value: -50, duration: 1000, delay: 200},
+        {value: 0, duration: 1000},
+        {value: 0, duration: 1000}
+    ],
+    easing: 'linear',
+    loop: true
+});
+
+
+
+let projFourLive = document.getElementById("projFourLive");
+
+anime({
+    targets: projFourLive,
+    translateX: [
+        {value: -50, duration: 1000, delay: 200},
+        {value: 0, duration: 1000},
+        {value: 0, duration: 1000}
     ],
     easing: 'linear',
     loop: true
